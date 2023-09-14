@@ -19,15 +19,6 @@ function hitungLuasKeliling(){
     document.getElementById("luas").value = Luas;
 }
 
-// function hitungKeliling(){
-//   var SiSi, KeLiling;
-
-//     SiSi = parseInt(document.getElementById("pjgsisi").value);
-
-//     KeLiling = (SiSi + SiSi) *2  ;
-
-//   document.getElementById("keliling").value = KeLiling;
-// }
 
 function hitungKelilingPersegi(sisi) {
   let keliling = 4 * sisi;
